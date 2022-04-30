@@ -13,7 +13,7 @@ export const App = () => {
 
   const onClickClose = useCallback(() => setOpen(false), [setOpen]);
 
-  const temp = useMemo(() => 1 + 3, []);
+  const temp = useMemo(() => 1 + 4, []);
   console.log(temp);
 
   return (
